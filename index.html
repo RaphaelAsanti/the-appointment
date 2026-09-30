@@ -55,7 +55,7 @@
       padding: 0;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       line-height: 1.6;
-      background: #C4C4C4;
+      background: #000000;
       color: #eee;
     }
     main {
@@ -107,7 +107,29 @@
   padding-left: 12px;
   margin: 20px 0;
 }
+a:link {
+  color: #4fc3f7; 
+  text-decoration: underline;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
 
+a:visited {
+  color: #b39ddb;
+}
+
+a:hover {
+  color: #81c784; /* Soft green */
+  text-decoration: underline;
+}
+
+a:focus {
+  outline-offset: 3px;
+  color: #f5eff1;
+}
+
+a:active {
+  color: #ff8a65; /* Deep coral */
+}
   </style>
 </head>
 <body>
